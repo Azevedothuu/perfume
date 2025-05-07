@@ -1,0 +1,92 @@
+
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+    font-size: 14px;
+}
+
+.cartao {
+    display: flex;
+    width: 600px;
+    height: 450px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+     overflow: hidden; /*sem isso a imagem ela não fica encaixada no cartão */
+}
+
+.cartao .img img {
+    width: 122%; 
+}
+
+.cartao .conteudo {
+    padding-left: 60px;
+    margin-left: 10px;
+}
+
+.cartao .conteudo .title {
+    display: flex;
+    font-size: 100%;
+    font-family: sans-serif;
+    padding-left: 8px;
+    padding-top: 40px;;
+}
+
+.cartao .conteudo h2 {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 0;
+}
+
+.cartao .conteudo p{
+    color: #aaa;
+    font-size: 14px; 
+    padding-right: 20px;
+}
+
+
+
+.cartao .preco .preco-atual {
+    color: green;
+    font-size: 45px;
+    font-family: sans-serif;
+
+}
+
+.cartao .preco .preco-antigo {
+    color: #aaa;
+    text-decoration: line-through;
+    padding-left: 10px;
+}
+
+.cartao .btn {
+    background-color: green;
+    font-family: arial;
+    color: white;
+    border-radius: 8px;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-left: 39px;
+    padding-right: 39px;
+    padding-bottom: 6px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
