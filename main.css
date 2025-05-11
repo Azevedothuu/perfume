@@ -78,11 +78,19 @@ body {
     cursor: pointer;
 }
 
-@media (max-width: 768px) {
+
+/* Estilo padrão */
+body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Para telas maiores */
+  @media (min-width: 768px) {
     body {
-        font-size: 14px;
+      flex-direction: row;
     }
-}
+  }
 
 
 
