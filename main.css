@@ -17,7 +17,7 @@ body {
     background: white;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-     overflow: hidden; /*sem isso a imagem ela não fica encaixada no cartão */
+     overflow: hidden; 
 }
 
 .cartao .img img {
@@ -79,13 +79,13 @@ body {
 }
 
 
-/* Estilo padrão */
+
 body {
     display: flex;
     flex-direction: column;
-  }
+} 
   
-  /* Para telas maiores */
+
   @media (min-width: 768px) {
     body {
       flex-direction: row;
